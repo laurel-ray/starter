@@ -1,6 +1,6 @@
 *,
-*::after,
-*::before {
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: inherit;
@@ -197,6 +197,12 @@ html {
           box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
+.btn:hover::after {
+  -webkit-transform: scale(1.4, 1.6);
+          transform: scale(1.4, 1.6);
+  opacity: 0;
+}
+
 .btn:active {
   -webkit-transform: translateY(-0.1rem);
           transform: translateY(-0.1rem);
@@ -205,8 +211,12 @@ html {
 }
 
 .btn--white {
-  background-color: #color-white;
+  background-color: #fff;
   color: #777;
+}
+
+.btn--white::after {
+  background-color: #fff;
 }
 
 .btn::after {
@@ -221,16 +231,6 @@ html {
   z-index: -1;
   -webkit-transition: all .4s;
   transition: all .4s;
-}
-
-.btn--white::after {
-  background-color: #fff;
-}
-
-.btn:hover::after {
-  -webkit-transform: scale(1.4, 1.6);
-          transform: scale(1.4, 1.6);
-  opacity: 0;
 }
 
 .btn--animated {
