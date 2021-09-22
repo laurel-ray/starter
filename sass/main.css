@@ -149,6 +149,7 @@ body {
 
 .paragraph {
   font-size: 1.6rem;
+  padding-right: 100px;
 }
 .paragraph:not(last-child) {
   margin-bottom: 3rem;
@@ -270,26 +271,31 @@ body {
 }
 
 .main__section-details {
+  padding-left: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.main_section-text {
-  flex: 0 0 50%;
-}
-
-.main_section-images {
-  flex: 0 0 50%;
-}
-
 .composition {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  position: relative;
+  flex: 0 0 50%;
 }
 .composition__photo {
-  width: 40%;
+  width: 45%;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
   border-radius: 2px;
+  position: absolute;
+}
+.composition__photo--p1 {
+  left: 0;
+  top: -2rem;
+}
+.composition__photo--p2 {
+  left: 32%;
+  top: 4rem;
+}
+.composition__photo--p3 {
+  left: 14%;
+  top: 15rem;
 }/*# sourceMappingURL=main.css.map */

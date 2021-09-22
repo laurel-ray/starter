@@ -1,28 +1,28 @@
 .composition {
-    // position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    position: relative;
+    flex: 0 0 50%;
+   
 
     &__photo {
-        width: 40%;
+        width: 45%;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
         border-radius: 2px;
-        // position: absolute;
+        position: absolute;
+        
 
-        // &--p1 {
-        //     left: 0;
-        //     top: -2rem;
-        // }
+         &--p1 {
+             left: 0;
+             top: -2rem;
+         }
 
-        // &--p2 {
-        //     left: 0;
-        //     top: 22rem;
-        // }
+         &--p2 {
+             left: 32%;
+             top: 4rem;
+         }
 
-        // &--p3 {
-        //     left: 20%;
-        //     top: 10rem;
-        // }
+         &--p3 {
+             left: 14%;
+             top: 15rem;
+         }
     }
 }

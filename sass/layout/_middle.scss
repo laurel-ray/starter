@@ -1,18 +1,9 @@
-.main__section-details {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+ .main__section-details {
+     padding-left: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
      
    
-}
+ }
 
-.main_section-text {
-    flex: 0 0 50%;
-    
-    
-}
-.main_section-images {
-    flex: 0 0 50%;
-    
-    
-}
