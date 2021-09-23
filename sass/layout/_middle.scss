@@ -1,5 +1,5 @@
  .main__section-details {
-     padding-left: 100px;
+     padding-left: 10rem;
      display: flex;
      flex-direction: row;
      justify-content: space-around;
@@ -8,9 +8,10 @@
  }
 
 .main__section-features {
+    padding: 15rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 
